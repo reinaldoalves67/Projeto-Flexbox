@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #ececec;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(247, 250, 251);
+}
+
+header .contents {
+    max-width: 1080px;
+    min-width: 320px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header .contents a {
+    display: inline-block;
+    width: fit-content;
+    height: 24px;
+    padding: 0 8px;
+    color: #fafafa;
+    background-color: blue;
+    border-radius: 4px;
+}
+
+main {
+    max-width: 1080px;
+    min-width: 320px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+
+section {
+    max-width: 1080px;
+    min-width: 320px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+section img {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #42424242;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 425px) {
+    section img {
+        width: 300px;
+    }
+}
+
+.container1{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background-color: rgb(188, 215, 131);
+    display: flex;
+
+    
+}
+
+.container1 .imagem{
+    width: 320px;
+    height: 320px;
+    background-color: rgb(87, 87, 171);
+}
+
+.container2{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(188, 215, 131);
+    gap: 40px;
+    
+}
+
+.container2 .imagem1{
+    width: 320px;
+    height: 140px;
+    background-color: rgb(87, 87, 171);
+}
+
+.container2 .imagem2{
+    width: 320px;
+    height: 140px;
+    background-color: red;
+}
+
+.container3{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    background-color: rgb(188, 215, 131);
+    gap: 40px;
+}
+
+.container3 .imagem1{
+    width: 140px;
+    height: 320px;
+    background-color: rgb(87, 87, 171);
+    
+}
+ 
+.container3 .imagem2{
+    width: 140px;
+    height: 320;
+    background-color: red;
+}
+
+.container4{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(188, 215, 131);
+    
+}
+
+.container4 .imagem1{
+    background-color: red;
+    width: 200px;
+    height: 200px;    
+}
+.container4 .imagem2{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+.container4 .imagem3{
+    background-color: rgb(87, 87, 171); 
+    width: 200px;
+    height: 200px;  
+     
+}
+.container4 .imagem4{
+    background-color: rgb(17, 160, 27);
+    width: 200px;
+    height: 200px;
+}
+
+.container5{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(188, 215, 131);  
+    
+      
+}
+.container5 .imagem1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 0 0 0 100%
+}
+.container5 .imagem2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(17, 160, 27);
+    border-radius: 0 0 100% 0;
+}
+.container5 .imagem3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 100% 0 0 0;
+}
+.container5 .imagem4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(87, 87, 171);
+    border-radius: 0 100% 0 0;
+}
+.container6{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(188, 215, 131);    
+}
+.container6 .imagem1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.container6 .imagem2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: yellow
+}
+
+.container6 .imagem3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.container6 .imagem4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(87, 87, 171);
+}
+
+
+.container7{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 40px;
+    background-color: rgb(188, 215, 131);
+    justify-content: center;
+    align-items: baseline;    
+}
+
+.container7 .imagem1{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(87, 87, 171);
+}
+
+.container7 .imagem2{
+    width: 140px;
+    height: 140px;
+    background-color: red;
+}
+
+.container7 .imagem3{
+    width: 140px;
+    height: 140px;background-color: yellow;
+}
+
+.container7 .imagem4{
+    width: 140px;
+    height: 140px;
+    background-color: green;
+}
+
+.container8{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(188, 215, 131);  
+    gap: 40px; 
+}
+
+.container8 .imagem1{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgb(87, 87, 171);
+}
+
+.container8 .imagem2{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.container8 .imagem3{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.container8 .imagem4{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.container9{
+    width: 400px;
+    height: 400px;
+    flex-direction: row;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(188, 215, 131);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container9 .imagem1{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(87, 87, 171) ; 
+    border-radius:0 0 0 100% ;   
+}
+.container9 .imagem2{
+    width: 140px;
+    height: 140px;
+    background-color: red; 
+    border-radius: 0 0 100% 0;   
+}
+ .container9 .imagem3{
+    width: 140px;
+    height: 140px;
+    background-color: yellow;
+    border-radius: 100% 0 0 0;    
+}
+
+.container9 .imagem4{
+    width: 140px;
+    height: 140px;
+    background-color: green;
+    border-radius: 0 100% 0 0;
+
+}
+
+.container10{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(188, 215, 131);
+    gap: 40px;
+}
+
+.container10 .imagem1{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(87, 87, 171);
+    border-radius: 100% 0 100% 0;
+
+}
+
+.container10 .imagem2{
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    border-radius: 0 100% 0 100%;
+}
+
+.container10 .imagem3{
+    width: 140px;
+    height: 140px;
+    background-color: yellow;
+    border-radius: 0 100% 0 100%;
+}
+
+.container10 .imagem4{
+    width: 140px;
+    height: 140px;
+    background-color: green;
+    border-radius: 100% 0 100% 0;
+}
